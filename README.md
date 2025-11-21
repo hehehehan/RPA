@@ -18,7 +18,6 @@ python attack.py/attack_ucf101.py --gpu 0 --model i3d_resnet101 --attack_type vi
 ``` bash
 python reference_kinetics.py/reference_ucf101.py --gpu 0 --adv_path your_adv_path
 ```
-* adv_path: name of the output file 
 
 
 ## License
