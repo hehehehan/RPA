@@ -1,2 +1,6 @@
 # RPA
-Our code is built upon TT
+
+## GPU infos
+```
+NVIDIA GeForce RTX 2080TI
+...
