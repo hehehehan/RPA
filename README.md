@@ -6,12 +6,12 @@ We use datasets which are sampled from UCF-101 and Kinetics-400. You can downloa
 # Models
 We use six pretrained video recognition models on UCF101 and Kinetics-400. You can download them from  [here](https://drive.google.com/drive/folders/10KOlWdi5bsV9001uL4Bn1T48m9hkgsZ2?usp=sharing) and [gluoncv](https://cv.gluon.ai/model_zoo/action_recognition.html), respectively. After downloading the UCF-101 models, you should place them into ./checkpoints.
 
-# other files
+# Other files
 You could get other Required files from [**TT**](https://github.com/zhipeng-wei/TT/tree/master)
 
 ## Generate adversarial examples.
 ```
-python attack.py/attack_ucf101.py --gpu 0 --batch_size 1 --model slowfast_resnet101 --attack_method TemporalTranslation --step 10 --file_prefix yours --momentum --kernlen 15 --move_type adj --kernel_mode gaussian
+python attack.py/attack_ucf101.py --gpu 0 --model i3d_resnet101 --attack_type video --attack_method RPA --step 30 --batch_size 1
 ```
 
 ## Attack Success rate
