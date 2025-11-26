@@ -10,7 +10,7 @@ import math
 import time
 import torch.nn.functional as F
 from utils import norm_grads
-
+  
 class RPA(Attack):
     '''
     paper: Boosting the transferability of video adversarial examples via temporal translation
