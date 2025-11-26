@@ -32,7 +32,7 @@ MODEL_TO_CKPTS = {
 
 def arg_parse():
     parser = argparse.ArgumentParser(description='')
-    parser.add_argument('--adv_path', type=str, default='./UCF101_Video-i3d_resnet101-RPA-1-', help='the path of adversarial examples.')
+    parser.add_argument('--adv_path', type=str, default='./UCF101_Video-i3d_resnet101-RPA-30-', help='the path of adversarial examples.')
     parser.add_argument('--gpu', type=str, default='0', help='gpu device.')
     parser.add_argument('--batch_size', type=int, default=16, metavar='N',
                     help='input batch size for reference (default: 16)')
