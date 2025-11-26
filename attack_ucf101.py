@@ -11,7 +11,7 @@ from dataset_ucf101 import attack_genearte_dataeset
 from gluoncv.torch.model_zoo import get_model
 from utils import CONFIG_PATHS, get_cfg_custom, OPT_PATH
 from reference_ucf101 import MODEL_TO_CKPTS
-
+  
 def arg_parse():
     parser = argparse.ArgumentParser(description='')
     # parser.add_argument('--adv_path', type=str, default='', help='the path of adversarial examples.')
